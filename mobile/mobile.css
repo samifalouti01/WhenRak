@@ -65,6 +65,7 @@ section.visible {
     justify-content: center;
     pointer-events: none; 
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
 }
 
 .navbar ul {
@@ -180,6 +181,38 @@ section.visible {
     font-size: larger;
     box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.25);
 }
+
+.cta-button1 {
+    position: fixed;
+    bottom: 200px;
+    left: 22%;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #FF6A00;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: larger;
+    box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.25);
+    z-index: 999;
+}
+
+.cta-button2 {
+    position: absolute;
+    bottom: 245px;
+    left: 22%;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #FF6A00;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: larger;
+    box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.25);
+}
+
 
 /* How It Works Section */
 .how-it-works {
@@ -518,12 +551,23 @@ section.visible {
     color: #FF6A00;
 }
 
+.address-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
 .address {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     gap: 10px;
+}
+
+.address a {
+    color: #fff;
 }
 
 @media screen and (max-width: 768px) {
@@ -713,4 +757,5 @@ section.visible {
     position: fixed;
     top: 30px;
     right: 20px;
+    z-index: 1000;
 }
