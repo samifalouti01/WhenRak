@@ -152,6 +152,36 @@ section.visible {
     box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.25);
 }
 
+.cta-button2 {
+    position: absolute;
+    bottom: 120px;
+    left: 8.5%;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #FF6A00;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: larger;
+    box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.cta-button3 {
+    position: absolute;
+    bottom: 120px;
+    left: 31%;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #FF6A00;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: larger;
+    box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.25);
+}
+
 /* How It Works Section */
 .how-it-works {
     background-color: #fff;
@@ -466,6 +496,7 @@ section.visible {
     list-style: none;
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .footer-links ul li {
@@ -474,7 +505,7 @@ section.visible {
 
 .footer-links ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #d0d0d0;
 }
 
 .fullscreen-icon {
@@ -486,12 +517,23 @@ section.visible {
     color: #FF6A00;
 }
 
+.address-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
 .address {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     gap: 10px;
+}
+
+.address a {
+    color: #fff;
 }
 
 @media screen and (max-width: 768px) {
