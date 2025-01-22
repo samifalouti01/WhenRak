@@ -167,10 +167,10 @@ section.visible {
     width: 400px;
 }
 
-.cta-button {
+.cta-button3 {
     position: absolute;
-    bottom: 180px;
-    left: 8.5%;
+    bottom: 70px;
+    left: 22%;
     margin-top: 1rem;
     padding: 0.5rem 1rem;
     background-color: #FF6A00;
@@ -200,7 +200,7 @@ section.visible {
 
 .cta-button2 {
     position: absolute;
-    bottom: 245px;
+    bottom: 205px;
     left: 22%;
     margin-top: 1rem;
     padding: 0.5rem 1rem;
@@ -505,6 +505,7 @@ section.visible {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: -47px;
     gap: 50px;
 }
 
