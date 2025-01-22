@@ -23,7 +23,7 @@ section {
     transform: translateY(50px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
     margin-top: -50px;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 section.visible {
@@ -139,7 +139,7 @@ section.visible {
 
 .cta-button {
     position: absolute;
-    bottom: 180px;
+    bottom: 140px;
     left: 8.5%;
     margin-top: 1rem;
     padding: 0.5rem 1rem;
@@ -471,6 +471,7 @@ section.visible {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: -47px;
     gap: 50px;
 }
 
